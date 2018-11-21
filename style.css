@@ -1,0 +1,39 @@
+
+body {
+    background: lightgray;
+}
+#giphy-view div {
+    float:left;
+    margin-right: 10px;
+    height:180px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#giphy-view div img {
+    height:150px;
+}
+.giphy-btn {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+#giphy-form {
+    float: right;
+}
+#giphy-input {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding:5px;    
+    width: 100%;
+
+}
+.clear {
+    clear:both;
+}
+#load-more {
+   margin-top: 10px;
+   width:50%;
+}
+@media (min-width: 768px) {
+    .col-md-4 {
+      max-width: 100%;
+    }
